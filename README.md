@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fully Customizable AI Chatbot Project
 
-## Getting Started
+![OpenAI](https://img.shields.io/badge/OpenAI-API-blue?logo=openai&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon-blue?logo=postgresql&logoColor=white&style=flat-square)
+![StepZen](https://img.shields.io/badge/StepZen-GraphQL-brightgreen?logo=graphql&logoColor=white&style=flat-square)
+![Clerk](https://img.shields.io/badge/Clerk-Auth-orange?logo=clerk&logoColor=white&style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js&logoColor=white&style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-Deployment-black?logo=vercel&logoColor=white&style=flat-square)
+![Shadcn](https://img.shields.io/badge/Shadcn-UI-yellow?logo=react&logoColor=white&style=flat-square)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-Styling-blue?logo=tailwindcss&logoColor=white&style=flat-square)
+![TypeScript](https://img.shields.io/badge/TypeScript-Strong%20Typing-blue?logo=typescript&logoColor=white&style=flat-square)
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a fully customizable AI chatbot application built using a range of modern web technologies. The project enables you to create, manage, and deploy chatbots that utilize the OpenAI API to interact with users in real-time. It includes a robust backend powered by PostgreSQL and StepZen, a customizable frontend built with Next.js, and secure user authentication via Clerk.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Real-time AI Chat:**
+  - Interact with the AI Agent in a real-time 1-on-1 chat using the OpenAI Completions API.
+  
+- **Database Integration:**
+  - Store admin details, prompts, and chat histories in a PostgreSQL database hosted on Neon.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **GraphQL API with StepZen:**
+  - Use StepZen to introspect the PostgreSQL DB and generate a GraphQL API for efficient data querying and manipulation.
 
-## Learn More
+- **User Authentication:**
+  - Integrate Clerk Authentication for easy Google User Authentication.
 
-To learn more about Next.js, take a look at the following resources:
+- **Chatbot Management:**
+  - Create new chatbots with unique links, allowing anyone to chat with the chatbot and receive assistance with their queries.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Admin Dashboard:**
+  - An admin dashboard to manage chatbots, edit prompts, and view all previous chat histories.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Optimized User Experience:**
+  - Leverage Next.js caching and Server Actions to create an optimal and efficient user experience.
 
-## Deploy on Vercel
+- **Modern UI/UX:**
+  - Design a stunning and responsive UI using Shadcn and Tailwind CSS.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **TypeScript Integration:**
+  - Reduce bugs and enhance code quality by utilizing TypeScript.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Deployment:**
+  - Easily deploy the final build on Vercel for a fast and reliable production environment.
+
+## Running Locally
+
+To run the project locally:
+
+1. Ensure that you have Node.js and Next.js installed.
+2. Clone the repository and navigate to the project directory.
+3. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and go to `http://localhost:3000` to view the application.
+
+## Conclusion
+
+This project demonstrates how to build a fully customizable AI chatbot using modern technologies. By following the video tutorial, you will have created a powerful and flexible AI solution ready for deployment.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
